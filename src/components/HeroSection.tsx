@@ -9,13 +9,6 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/80 mx-0 py-[2px]" />
       </div>
 
-      {/* Background Text - Watermark Style */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
-        <h2 className="text-7xl md:text-9xl lg:text-[11rem] xl:text-[13rem] font-display font-bold text-accent/15 select-none tracking-[0.3em] transform rotate-[-8deg] translate-y-8">
-          MONEY TALKS
-        </h2>
-      </div>
-
       {/* Content */}
       <div className="relative z-10 text-center max-w-5xl mx-auto px-6 lg:px-8 py-[50px]">
         <div className="animate-fade-in">
