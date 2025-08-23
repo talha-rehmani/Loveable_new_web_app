@@ -9,6 +9,13 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/80 mx-0 py-[2px]" />
       </div>
 
+      {/* Background Text */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-5">
+        <h2 className="text-8xl md:text-9xl lg:text-[12rem] xl:text-[15rem] font-display font-bold text-accent/20 select-none tracking-wider">
+          MONEY TALKS
+        </h2>
+      </div>
+
       {/* Content */}
       <div className="relative z-10 text-center max-w-5xl mx-auto px-6 lg:px-8 py-[50px]">
         <div className="animate-fade-in">
@@ -19,7 +26,7 @@ const HeroSection = () => {
             </span>
           </h1>
           
-          <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">money talks</p>
+          <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">Discover unparalleled luxury in every detail</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-4 text-lg font-semibold gold-shadow transition-all duration-300 hover:scale-105">
