@@ -5,6 +5,9 @@ import { Eye, Heart, Zap } from 'lucide-react';
 import ferrariImage from '@/assets/ferrari-812.jpg';
 import bentleyImage from '@/assets/bentley-continental.jpg';
 import lamborghiniImage from '@/assets/lamborghini-huracan.jpg';
+import bmwImage from '@/assets/bmw-m8.jpg';
+import audiImage from '@/assets/audi-rs7.jpg';
+import mercedesImage from '@/assets/mercedes-amg-gt63.jpg';
 
 const FeaturedCars = () => {
   const featuredCars = [
@@ -24,14 +27,14 @@ const FeaturedCars = () => {
     },
     {
       id: 2,
-      name: 'Bentley Continental GT',
-      brand: 'Bentley',
-      price: '$230,000',
-      image: bentleyImage,
+      name: 'BMW M8 Competition',
+      brand: 'BMW',
+      price: '$142,000',
+      image: bmwImage,
       specs: {
-        power: '626 HP',
-        speed: '208 mph',
-        acceleration: '3.7s'
+        power: '617 HP',
+        speed: '190 mph',
+        acceleration: '3.2s'
       },
       status: 'Available',
       featured: false
@@ -49,6 +52,48 @@ const FeaturedCars = () => {
       },
       status: 'Reserved',
       featured: true
+    },
+    {
+      id: 4,
+      name: 'Audi RS7 Sportback',
+      brand: 'Audi',
+      price: '$116,000',
+      image: audiImage,
+      specs: {
+        power: '591 HP',
+        speed: '174 mph',
+        acceleration: '3.6s'
+      },
+      status: 'Available',
+      featured: false
+    },
+    {
+      id: 5,
+      name: 'Mercedes-AMG GT63 S',
+      brand: 'Mercedes-AMG',
+      price: '$158,000',
+      image: mercedesImage,
+      specs: {
+        power: '630 HP',
+        speed: '195 mph',
+        acceleration: '3.2s'
+      },
+      status: 'Available',
+      featured: true
+    },
+    {
+      id: 6,
+      name: 'Bentley Continental GT',
+      brand: 'Bentley',
+      price: '$230,000',
+      image: bentleyImage,
+      specs: {
+        power: '626 HP',
+        speed: '208 mph',
+        acceleration: '3.7s'
+      },
+      status: 'Available',
+      featured: false
     }
   ];
 
