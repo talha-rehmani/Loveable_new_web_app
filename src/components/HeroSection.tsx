@@ -11,7 +11,7 @@ const HeroSection = () => {
 
       {/* Background Text - Watermark Style */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
-        <h2 className="text-6xl md:text-8xl lg:text-9xl xl:text-[10rem] font-display font-bold text-accent/10 select-none tracking-[0.2em] transform -rotate-12">
+        <h2 className="text-7xl md:text-9xl lg:text-[11rem] xl:text-[13rem] font-display font-bold text-accent/15 select-none tracking-[0.3em] transform rotate-[-8deg] translate-y-8">
           MONEY TALKS
         </h2>
       </div>
