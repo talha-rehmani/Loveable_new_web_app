@@ -10,7 +10,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center max-w-5xl mx-auto px-6 lg:px-8">
+      <div className="relative z-10 text-center max-w-5xl mx-auto px-6 lg:px-8 py-[50px]">
         <div className="animate-fade-in">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-6 leading-tight">
             Experience the
@@ -19,10 +19,7 @@ const HeroSection = () => {
             </span>
           </h1>
           
-          <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Discover the world's most prestigious automobiles. From Rolls-Royce to Ferrari, 
-            we curate the finest collection of luxury vehicles for the discerning connoisseur.
-          </p>
+          <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">money talks</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-4 text-lg font-semibold gold-shadow transition-all duration-300 hover:scale-105">
