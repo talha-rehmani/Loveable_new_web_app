@@ -1,18 +1,12 @@
 import { Button } from '@/components/ui/button';
 import { ChevronDown, Play } from 'lucide-react';
 import heroImage from '@/assets/hero-luxury-car.jpg';
-
 const HeroSection = () => {
-  return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="Luxury Car Hero"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/80" />
+        <img src={heroImage} alt="Luxury Car Hero" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/80 mx-0 py-[2px]" />
       </div>
 
       {/* Content */}
@@ -31,18 +25,11 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button 
-              size="lg" 
-              className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-4 text-lg font-semibold gold-shadow transition-all duration-300 hover:scale-105"
-            >
+            <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-4 text-lg font-semibold gold-shadow transition-all duration-300 hover:scale-105">
               Explore Collection
             </Button>
             
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="border-2 border-foreground/20 text-foreground hover:bg-foreground/10 px-8 py-4 text-lg flex items-center gap-2 glass-effect"
-            >
+            <Button variant="outline" size="lg" className="border-2 border-foreground/20 text-foreground hover:bg-foreground/10 px-8 py-4 text-lg flex items-center gap-2 glass-effect">
               <Play className="w-5 h-5" />
               Watch Story
             </Button>
@@ -54,15 +41,21 @@ const HeroSection = () => {
               <div className="text-3xl md:text-4xl font-bold text-accent mb-2">50+</div>
               <div className="text-sm text-muted-foreground uppercase tracking-wider">Premium Brands</div>
             </div>
-            <div className="text-center animate-slide-up" style={{ animationDelay: '0.1s' }}>
+            <div className="text-center animate-slide-up" style={{
+            animationDelay: '0.1s'
+          }}>
               <div className="text-3xl md:text-4xl font-bold text-accent mb-2">200+</div>
               <div className="text-sm text-muted-foreground uppercase tracking-wider">Luxury Vehicles</div>
             </div>
-            <div className="text-center animate-slide-up" style={{ animationDelay: '0.2s' }}>
+            <div className="text-center animate-slide-up" style={{
+            animationDelay: '0.2s'
+          }}>
               <div className="text-3xl md:text-4xl font-bold text-accent mb-2">15+</div>
               <div className="text-sm text-muted-foreground uppercase tracking-wider">Years Experience</div>
             </div>
-            <div className="text-center animate-slide-up" style={{ animationDelay: '0.3s' }}>
+            <div className="text-center animate-slide-up" style={{
+            animationDelay: '0.3s'
+          }}>
               <div className="text-3xl md:text-4xl font-bold text-accent mb-2">98%</div>
               <div className="text-sm text-muted-foreground uppercase tracking-wider">Client Satisfaction</div>
             </div>
@@ -77,9 +70,9 @@ const HeroSection = () => {
 
       {/* Floating Elements */}
       <div className="absolute top-1/4 left-10 w-20 h-20 bg-accent/10 rounded-full blur-xl animate-float hidden lg:block" />
-      <div className="absolute bottom-1/4 right-10 w-32 h-32 bg-accent/5 rounded-full blur-2xl animate-float hidden lg:block" style={{ animationDelay: '1s' }} />
-    </section>
-  );
+      <div className="absolute bottom-1/4 right-10 w-32 h-32 bg-accent/5 rounded-full blur-2xl animate-float hidden lg:block" style={{
+      animationDelay: '1s'
+    }} />
+    </section>;
 };
-
 export default HeroSection;
