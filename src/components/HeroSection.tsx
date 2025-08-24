@@ -1,11 +1,11 @@
 import { Button } from '@/components/ui/button';
 import { ChevronDown, Play } from 'lucide-react';
-import heroImage from '@/assets/hero-boats-collection.jpg';
+import heroImage from '@/assets/hero-complete-collection.jpg';
 const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img src={heroImage} alt="Luxury Vehicle Collection - Cars, Boats & Private Jets" className="w-full h-full object-cover" />
+        <img src={heroImage} alt="Complete Luxury Collection - Supercars, Private Jets & Luxury Yachts" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/80 mx-0 py-[2px]" />
       </div>
 
