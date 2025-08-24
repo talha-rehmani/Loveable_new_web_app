@@ -1,11 +1,11 @@
 import { Button } from '@/components/ui/button';
 import { ChevronDown, Play } from 'lucide-react';
-import heroImage from '@/assets/hero-luxury-car.jpg';
+import heroImage from '@/assets/hero-luxury-collection.jpg';
 const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img src={heroImage} alt="Luxury Car Hero" className="w-full h-full object-cover" />
+        <img src={heroImage} alt="Luxury Vehicle Collection - Cars, Boats & Private Jets" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/80 mx-0 py-[2px]" />
       </div>
 
@@ -15,11 +15,11 @@ const HeroSection = () => {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-6 leading-tight">
             Experience the
             <span className="block text-accent luxury-gradient bg-clip-text text-transparent">
-              Art of Driving
+              Ultimate Luxury
             </span>
           </h1>
           
-          <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">Discover unparalleled luxury in every detail</p>
+          <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">Supercars, Private Jets & Luxury Yachts - Your Gateway to Premium Living</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-4 text-lg font-semibold gold-shadow transition-all duration-300 hover:scale-105">
