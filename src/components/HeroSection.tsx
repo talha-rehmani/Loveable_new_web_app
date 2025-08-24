@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ChevronDown, Play } from 'lucide-react';
-import heroImage from '@/assets/hero-luxury-collection.jpg';
+import heroImage from '@/assets/hero-boats-collection.jpg';
 const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
