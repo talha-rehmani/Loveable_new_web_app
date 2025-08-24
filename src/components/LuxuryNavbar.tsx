@@ -30,7 +30,7 @@ const LuxuryNavbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-2xl lg:text-3xl font-display font-bold text-foreground">
-              Luxe<span className="text-accent">Drive</span>
+              Talha<span className="text-accent"> Rehmani</span>
             </h1>
           </div>
 
@@ -52,11 +52,11 @@ const LuxuryNavbar = () => {
             <div className="flex items-center space-x-4 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+92 3102353059</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>hello@luxedrive.com</span>
+                <span>talharehmani@hotmail.com</span>
               </div>
             </div>
             <Button variant="outline" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground">
