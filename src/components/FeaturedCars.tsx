@@ -11,6 +11,9 @@ import mercedesImage from '@/assets/mercedes-amg-gt63.jpg';
 import yachtImage from '@/assets/luxury-yacht.jpg';
 import privateJetImage from '@/assets/private-jet.jpg';
 import speedboatImage from '@/assets/speedboat.jpg';
+import superyachtImage from '@/assets/superyacht.jpg';
+import catamaranImage from '@/assets/catamaran.jpg';
+import motorYachtImage from '@/assets/motor-yacht.jpg';
 
 const FeaturedCars = () => {
   const featuredVehicles = [
@@ -142,6 +145,51 @@ const FeaturedCars = () => {
       status: 'Available',
       featured: false,
       type: 'boat'
+    },
+    {
+      id: 10,
+      name: 'Sunseeker 88 Yacht',
+      brand: 'Sunseeker',
+      price: '$6,200,000',
+      image: superyachtImage,
+      specs: {
+        power: '2,400 HP',
+        speed: '26 knots',
+        acceleration: 'N/A'
+      },
+      status: 'Available',
+      featured: true,
+      type: 'yacht'
+    },
+    {
+      id: 11,
+      name: 'Lagoon 77 Catamaran',
+      brand: 'Lagoon',
+      price: '$4,800,000',
+      image: catamaranImage,
+      specs: {
+        power: '150 HP',
+        speed: '18 knots',
+        acceleration: 'N/A'
+      },
+      status: 'Reserved',
+      featured: false,
+      type: 'yacht'
+    },
+    {
+      id: 12,
+      name: 'Princess V78',
+      brand: 'Princess',
+      price: '$3,400,000',
+      image: motorYachtImage,
+      specs: {
+        power: '1,800 HP',
+        speed: '32 knots',
+        acceleration: 'N/A'
+      },
+      status: 'Available',
+      featured: false,
+      type: 'yacht'
     }
   ];
 
